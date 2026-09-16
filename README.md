@@ -48,7 +48,9 @@ pierden ese efecto.**
 
 ## Compatch con Better Politics Mod
 
-En `bpm-compatch/`. Amplía las nueve condiciones de `law_autocracy` a `law_autocracy`,
+En `bpm-compatch/`. Hace dos cosas.
+
+**Una:** amplía las nueve condiciones de `law_autocracy` a `law_autocracy`,
 `law_military_junta` y `law_oligarchy`, en estos archivos: `events/supreme_power.txt`,
 `events/mazorca.txt`, `events/salons.txt`, `common/journal_entries/rosas.txt`,
 `common/decisions/new_laws.txt` y `common/scripted_buttons/mazorca.txt`.
