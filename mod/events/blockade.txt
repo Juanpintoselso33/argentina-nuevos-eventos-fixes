@@ -1,0 +1,193 @@
+﻿namespace = blockade
+
+# on action every month
+blockade.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = blockade.1.t
+	desc = blockade.1.d
+	flavor = blockade.1.f
+
+	cooldown = { years = 999 }
+	duration = 18
+
+	event_image = {
+		video = "unspecific_naval_blockade"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	trigger = {
+		c:ARG ?= this # important because c:ARG can not exist
+		NOT = {
+			has_law = law_type:law_wealth_voting
+			has_law = law_type:law_census_voting
+			has_law = law_type:law_landed_voting
+		}
+
+		OR = {
+			#no tiene sentido si nosotros también somos una potencia
+			#el bloqueo naval no tiene sentido sin el proteccionismo.
+			has_law = law_type:law_mercantilism
+			has_law = law_type:law_protectionism
+			country_rank < rank_value:major_power
+		}
+		#las exportaciones deben ser relevantes
+		hidden_trigger = { OR = {
+			850 < {
+				value = 0
+				every_scope_building = {
+					limit = {
+						is_building_type = building_trade_center
+						occupancy = 1.00
+						is_subsidized = no
+					}
+					add = weekly_profit
+				}
+			}
+
+			AND = {
+				country_has_building_type_levels = {
+					target = bt:building_trade_center
+					value >= 4
+				}
+
+				OR = {
+					goods_production_rank = {
+						target = g:meat
+						value  <= 7
+					}
+
+					goods_production_rank = {
+						target = g:grain
+						value  <= 10
+					}
+				}
+			}
+		} }
+
+
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = blockade.1.a
+		default_option = yes
+
+		set_variable = {
+			name = blockade_happened
+		}
+
+		add_modifier = {
+			name = blockade_modifier
+			days = short_modifier_time
+		}
+
+		add_modifier = {
+			name = protectionist_modifier
+			days = short_modifier_time
+		}
+
+		hidden_effect = {
+			set_relations = {
+				country = c:GBR
+				value = -30
+			}
+		}
+	}
+
+	option = {
+		name = blockade.1.b
+
+		activate_law = law_type:law_free_trade
+
+		add_modifier = {
+			# blockade effects
+			name = forced_free_trade_modifier
+			days = short_modifier_time
+
+		}
+
+		create_treaty = {
+			first_country = c:GBR
+			second_country = c:ARG
+			is_draft = no
+			binding_period = { years = 10 }
+			articles_to_create = {
+				{
+					article = trade_privilege
+					source_country = root
+					target_country = c:GBR
+				}
+
+				{
+					article = foreign_investment_rights
+					source_country = root
+					target_country = c:GBR
+				}
+			}
+		}
+		hidden_effect = {
+			set_relations = {
+				country = c:GBR
+				value = 50
+			}
+		}
+
+
+
+	}
+}
+
+# on action every month
+blockade.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = blockade.2.t
+	desc = blockade.2.d
+	flavor = blockade.2.f
+
+	duration = 3
+	cooldown = { years = 999 }
+
+
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	trigger = {
+		c:ARG ?= this # important because c:ARG can not exist
+
+		NOT = {
+			has_modifier = blockade_modifier
+		}
+
+		has_variable = blockade_happened
+
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = blockade.2.a
+		default_option = yes
+
+		add_modifier = {
+			name = sovereignty_defended
+			days = very_long_modifier_time
+		}
+	}
+}
+
+
+

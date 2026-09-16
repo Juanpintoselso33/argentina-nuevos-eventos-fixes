@@ -1,0 +1,36 @@
+﻿new_laws = {
+	is_shown = {
+		or = {
+			c:ARG ?= this
+			c:Great_ARG ?= this
+			c:PLT ?= this
+		}
+
+		NOT = {
+			has_law = law_type:law_autocracy
+			has_variable = decision_taked
+		}
+
+
+	}
+
+	possible = {
+
+	}
+	
+
+	when_taken = {
+
+		set_variable = { name = decision_taked }
+
+		trigger_event = {
+			id = supreme_power.3
+			days = 90
+			popup = yes
+		}
+	}
+
+	ai_chance = {
+		value = 100
+	}
+}

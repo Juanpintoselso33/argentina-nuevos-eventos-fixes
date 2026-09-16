@@ -1,0 +1,124 @@
+﻿l_spanish:
+
+blockade.1.t: "El bloqueo civilizador"
+blockade.1.d: "Pretextando la supuesta barbarie de nuestro gobierno y agravios al comercio extranjero, una gran potencia ha enviado sus escuadras para cerrar nuestros puertos."
+blockade.1.f: "—Nuestras exportaciones dominaban sus mercados, y como no pueden competir, nos bloquean. ¡No entregaremos nuestra soberanía!\n\n—Señor, nuestra riqueza provenía de venderles a ellos. Ahora los almacenes están llenos de cueros pudriéndose y el Estado no recauda, debemos ser pragmáticos."
+blockade.1.a: "El bloqueo será el motor de la industria nacional."
+blockade.1.b: "Firmad la apertura del mercado."
+blockade_modifier: "Bloqueo naval"
+protectionist_modifier: "Patriotismo proteccionista"
+forced_free_trade_modifier: "Libre comercio forzado"
+sovereignty_defended: "Soberanía defendida"
+blockade.2.t: "La soberanía defendida"
+blockade.2.d: "Las escuadras extranjeras han levantado el bloqueo y se retiran de nuestras aguas. Su intento de forzar la libre navegación comercial mediante los cañones resultó en un fracaso económico frente a nuestra tenaz resistencia. Al negarnos a ceder, hemos obligado al enemigo a claudicar y reconocer nuestra soberanía absoluta."
+blockade.2.f: "—Pusimos gruesas cadenas de costa a costa y las defendimos con sangre \n\n—Rompieron los eslabones, sí, ¡pero no pudieron quebrar el espíritu de la Confederación!\n\n—Es un triunfo diplomático sin precedentes, señor Ministro.\n\nEuropa ha reconocido nuestra soberanía fluvial, y el mundo entero sabe ahora que esta nación no se somete a los caprichos imperiales."
+blockade.2.a: "¡Honor a los valientes que defendieron nuestras aguas y soberanía!"
+
+customs_laws.1.t: "La Ley de Aduanas"
+customs_laws.1.d: "Hartos del contrabando y la dependencia de los productos europeos, hemos cerrado la puerta al saqueo extranjero."
+customs_laws.1.f: "—Los caudillos del interior han recibido la noticia de la nueva ley, señor. Por primera vez en años, los telares de Córdoba y los viñedos de San Juan podrán competir sin ser aplastados por las baratijas extranjeras.\n\n—Exacto. La lealtad no se compra únicamente con plomo y sables; a veces requiere firmar un trozo de papel que encarezca el vino francés. Hemos atado el destino de las provincias a nuestra Aduana.\n\n—¿Y los comerciantes porteños que vivían de revender contrabando europeo? Se quejan de la tiranía de los aranceles.\n\n—A los que se quejen en voz muy alta, recuérdales que la Mazorca también sabe hacer cumplir las leyes económicas."
+customs_laws.1.a: "La Aduana es el corazón de la Nación"
+customs_laws_tip: "Esto generará descontento y reducirá el poder y los ingresos de las provincias del interior."
+
+piratini.1.t: "El vecino benevolente"
+piratini.1.d: "Al canalizar fondos hacia los líderes rebeldes, estamos obligando a nuestros vecinos imperiales a gastar una cantidad exorbitante de recursos, alterando el equilibrio de poder regional a nuestro favor."
+piratini.1.f: "—Excelencia, el Ministro de Hacienda dice que enviar todo nuestro oro a esos estancieros en rebeldía arruinará la....\n\n—Nosotros enviamos cien fusiles oxidados y un cofre de plata. A cambio, el Emperador moviliza tres batallones, paga raciones infladas, pierde prestigio internacional y entierra a la mitad de sus hombres en el lodo.\n\n—¿Pero y si los secesionistas terminan perdiendo la guerra de todos modos?\n\n—Además, la mitad de los fusiles que enviamos estaban defectuosos desde la independencia. Sírveme otro mate."
+piratini.1.a: "Ayúdalos clandestinamente."
+piratini.1.b: "Eso no nos interesa."
+
+piratini.2.t: "El sur se abre"
+piratini.2.d: "Con la independencia de la República Piratini, el Imperio pierde su acceso terrestre al Plata y sufre una crisis de prestigio que amenaza con fracturarlo."
+piratini.2.f: "—Que celebren su independencia. Toda república joven necesita vender, comprar mucho y encontrar quién la reconozca.\n\nNadie quería parecer demasiado satisfecho, pero todos entendían lo ocurrido: el Brasil había perdido su camino terrestre hacia el Plata. Sin Rio Grande, el Imperio debería hablar más y marchar menos.\n\nUruguay parecía menos protegido, Montevideo menos distante, y la frontera sur del Brasil, antes firme, comenzaba a parecer una línea escrita sobre agua."
+piratini.2.a: "El tablero diplomático y económico sudamericano nos pertenece."
+clandestine_support_tip: "Aumentaremos razonablemente las posibilidades de supervivencia de la república separatista."
+
+#modifiers
+clandestine_support1: "Apoyo velado"
+clandestine_support2: "Intervención encubierta"
+plata_control: "La brecha del imperio"
+fragmented_empire: "Imperio fragmentado"
+
+customs_laws: "Ley de aduanas"
+customs_laws2: "Aduana de Buenos Aires"
+customs_laws3: "Aduana de Buenos Aires"
+
+
+mazorca.3.t:"La mazorca"
+mazorca.3.d:"Un libro extranjero, algunas cartas mal guardadas y una visita nocturna bastan para poner en duda la lealtad de un ciudadano."
+mazorca.3.f:"El hombre había intentado explicar que sólo leía por curiosidad. Nadie en la sala pareció considerar aquello una defensa sensata.\n\n—La curiosidad es una virtud peligrosa.\n\n—No sabía que leer estuviera prohibido.\n\nEl mazorquero tomó uno de los papeles y lo acercó a la lámpara. —Leer mal, en cambio, suele traer consecuencias.\n\nBajo la luz temblorosa, el retrato en la pared parecía menos una imagen que una presencia.\n\n—¿Y quién decide si he leído mal?\n\n—Esta noche, nosotros."
+mazorca.3.a:"Un pequeño precio a pagar por el orden."
+
+mazorca.2.t:"La mazorca"
+mazorca.2.d:"La Mazorca ha intensificado sus patrullajes nocturnos, enfocando su ira en los círculos literarios y académicos."
+mazorca.2.f:"—¡Yo amo al Restaurador! ¡Es más, mi perro se llama Juan Manuel! —gritaba el joven poeta, mientras dos hombres armados con garrotes lo arrastraban por las solapas hacia el callejón.\n\n—Callate, salvaje unitario. Te escuchamos recitando esos versitos sobre la "libertad" y las "luces de Europa" en la taberna —gruñó uno de los matones, sacando un cuchillo tan largo como su brazo.\n\n—¡Era sarcasmo! ¡Una ironía estilística! ¡Ustedes no entienden las vanguardias literarias modernas! —lloriqueó el muchacho, aferrándose a un farol—. ¡Por favor, suéltenme, tengo alergia a la sangre... especialmente a la mía!"
+mazorca.2.a:"Un pequeño precio a pagar por el orden."
+
+mazorca.1.t:"La divisa punzó"
+mazorca.1.d:"La lealtad federal ya no vive solo en discursos y proclamas. Ahora debe llevarse sobre el pecho."
+mazorca.1.f:"No hubo gritos en la sala, ni soldados golpeando la puerta, ni decreto leído en voz alta.\n\nSolo una bandeja con cintas rojas y varios hombres demasiado prudentes para preguntar si podían negarse.\n\nEl funcionario prendió la divisa con cuidado, como quien ajusta una prenda de gala.\n\nPero todos sabían que aquella tela no adornaba al hombre: lo señalaba.\n\nQuien la llevaba quedaba a salvo por ahora. Quien no, empezaba a ser recordado."
+mazorca.1.a:"The age of disorder must give way to the Nation."
+divisa_punzo_modifier: "Divisa punzó"
+mazorca_modifier: "Terror de la mazorca"
+
+supreme_power.1.t: "La Suma del Poder Público"
+supreme_power.1.d: "La Confederación, desgastada por guerras civiles y divisiones internas, ha entregado al Gobernador la suma del poder público, en nombre del orden."
+supreme_power.1.f: "Los representantes discutieron durante horas la forma exacta de la concesión. Algunos querían que sonara temporal. Otros, inevitable. Nadie quería que sonara como rendición.\n\n—No entregamos la Confederación.\n\n—No. Sólo entregamos los medios para salvarla.\n\n—¿Y quién distinguirá una cosa de la otra?\n\nLa pregunta quedó suspendida sobre la mesa, incómoda e inútil. El acta ya estaba preparada, y la pluma esperaba."
+supreme_power.1.a: "La anarquía será contenida."
+supreme_power_modifier: "La suma del poder público"
+supreme_power.2.t: "La caída del Restaurador"
+supreme_power.2.d: "Mientras [SCOPE.sCharacter('our_leader').GetFullName] abandona el país hacia el exilio, la sociedad experimenta de golpe el choque entre el desmantelamiento de los símbolos dictatoriales y la cruda realidad económica de la reorganización nacional."
+supreme_power.2.f: "—¡Alégrese! ¡hoy hemos restaurado la verdadera libertad!\n\n—Se lo agradezco infinitamente, señor. Supongo que con tanta libertad y legalidad, el nuevo gobierno ya no me cobrará las contribuciones forzosas que nos exigía la Mazorca\n\n—Bueno, tampoco nos precipitemos, el tirano huyó, pero dejó las arcas del Estado completamente vacías. Técnicamente le cobraremos los mismos impuestos, solo que ahora perderemos tres horas debatiéndolos en el Congreso para que sean constitucionales.\n\n—Ya comprendo. La libertad republicana cuesta  lo mismo, pero viene con muchísimos más discursos. Fascinante."
+supreme_power.2.a: "Viva la Patria!"
+supreme_power.2.b: "Ahora podemos promulgar una nueva constitución."
+supreme_power.3.t: "La nueva constitución"
+supreme_power.3.d: "Entre discursos solemnes, firmas temblorosas y sonrisas calculadas, nace un nuevo orden nacional."
+supreme_power.3.f: "—Hemos redactado un documento brillante. La república civilizada, con sus derechos y su orden, por fin existe de forma perfecta en este papel.\n\n—En el papel funciona de maravilla, doctor. Pero allá afuera siguen gobernando los caudillos, las deudas y los caminos de barro. ¿Cómo le imponemos este hermoso libro de reglas a una tierra que solo respeta el filo de un sable?\n\n—Paso a paso, mi querido amigo. Primero escribimos la ley, y luego obligamos a la realidad a obedecerla con el tiempo. Puede que el país siga siendo un caos por ahora... pero al menos hoy, oficialmente, es un caos inconstitucional."
+supreme_power.3.a: "Promulgar nueva constitución."
+new_laws_modifier: "Una nueva era"
+
+salons.1.t: "Salones literarios"
+salons.1.d: "En Argentina, un grupo de jóvenes letrados se reúne para discutir literatura, filosofía y el futuro de la patria."
+salons.1.f: "Sobre la mesa descansaban libros franceses, manuscritos incompletos y algunas ideas que todavía no habían decidido si eran literatura o delito.\n\n—No estamos conspirando.\n\n—Por supuesto que no. Sólo estamos pensando en voz alta.\n\n—En estos tiempos, pensar en voz alta es casi una forma de conspiración.\n\n—Entonces tendremos que escribir en voz baja.\n\nNadie rió demasiado. En Argentina, hasta los chistes necesitaban discreción."
+salons.1.a: "Observémoslos de cerca."
+salons.1.b: "Basta de reuniones privadas."
+
+salons.2.t: "Civilización y barbarie"
+salons.2.d: "El gobierno de Argentina descubre que no todas las amenazas llegan a caballo."
+salons.2.f: "Allí estaban la campaña, los caudillos, la barbarie, la civilización y otras palabras extranjeras.\n\nEl libro quedó sobre la mesa como una prueba sin delito claro. Bastaba con leerlo para entender la intención; bastaba con prohibirlo para confirmar la acusación.\n\n—¿Qué haremos con él?\n\n—Lo mismo que con todos los libros peligrosos: fingir que no nos inquieta, mientras rastreamos cada ejemplar y a cada hombre que se haya atrevido a leerlo."
+salons.2.a: "Un libro no gobierna."
+salons.2.b: "Censura el libro."
+
+salons_neutral: "Salones literarios"
+salons_closed: "Salones literarios cerrados"
+barbaros: ""
+barbaros1: "Censura"
+barbaros2: "Civilización y barbarie"
+saladeros: "Los saladeros"
+saladeros2: "El aroma del progreso"
+saladeros3: "Ranchos civilizados"
+
+saladeros.1.t: "Carne, cuero y poder"
+saladeros.1.d: "La carne salada argentina encuentra compradores en los mercados extranjeros, fortaleciendo a los estancieros y vinculando la economía nacional al comercio atlántico."
+saladeros.1.f: "No había máquinas elegantes ni chimeneas ordenadas.\n\nSólo corrales, cuchillos, sal, humo y hombres acostumbrados a no apartar la vista. Allí, donde la estancia terminaba y comenzaba el puerto, la Confederación encontraba una industria a su medida.\n\n—Dicen que esto no es progreso.\n\n—Entonces no han visto cuánto pagan por nuestros cueros.\n\nLa sangre corría por los canales hasta perderse en el barro. Sobre ella se levantaba, lenta y olorosa, una nueva riqueza."
+saladeros.1.a: "El tasajo alimentará nuestra prosperidad."
+
+saladeros.2.t: "El aroma del progreso"
+saladeros.2.d: "Los saladeros de la ribera han traído empleo, exportaciones y un olor capaz de derrotar al más firme defensor del libre comercio."
+saladeros.2.f: "Primero llegaron las quejas de los vecinos. Luego las de los médicos. Finalmente, incluso algunos funcionarios comenzaron a cerrar las ventanas antes de defender la prosperidad nacional.\n\nLa ribera, generosa como siempre, recibía sangre, grasa, vísceras y todo aquello que la economía no encontraba forma elegante de exportar.\n\n—Dicen que el aire se ha vuelto irrespirable.\n\n—Entonces respiran demasiado cerca de la riqueza.\n\nLa sala quedó en silencio. Desde la orilla llegó una ráfaga espesa y tibia.\n\n—Quizá podríamos producir un poco menos.\n\n—O enseñar a la ciudad a oler el progreso con gratitud."
+saladeros.2.a: "La salud pública exige ciertos sacrificios."
+saladeros.2.b: "Que la ciudad aprenda a respirar la prosperidad."
+
+
+
+new_laws:0 "Promulgar nueva constitución"
+new_laws_desc:0 "Promulgá la Constitución de 1853 para establecer un nuevo orden institucional y modernizar el país."
+
+
+ je_rosas: "La Era de Rosas"
+ je_rosas_reason: "El poder público ha sido reunido en una sola mano, y esa mano no tiembla.\n\nBajo Rosas, la Confederación conserva la paz de los cementerios prudentes y de los salones donde nadie levanta la voz. La divisa punzó adorna pechos, puertas y conciencias; los periódicos aprenden disciplina; los opositores descubren las virtudes climáticas de Montevideo y Santiago.\n\nPero ningún régimen personal puede gobernar eternamente sobre una Nación que todavía no se atreve a nacer. Tarde o temprano, la espada del Restaurador deberá enfrentarse a la pluma de los constituyentes."
+
+ country_turmoil: "Level of turmoil"
+ radical_population_fraction: "Radicals percentage"
+
+ mazorca_button: "Mazorca"
+ mazorca_button_desc: "La Mazorca vigilará las calles, los salones y las conciencias. La oposición puede seguir existiendo, siempre que lo haga en voz baja, lejos de Buenos Aires o bajo tierra."

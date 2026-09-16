@@ -1,0 +1,147 @@
+﻿namespace = saladeros
+
+# on action every month
+saladeros.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = saladeros.1.t
+	desc = saladeros.1.d
+	flavor = saladeros.1.f
+
+	cooldown = { years = 999 }
+	duration = 1
+
+	event_image = {
+		video = "southamerica_saladeros"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	trigger = {
+		c:ARG ?= this # important because c:ARG can not exist
+		game_date >= 1840.2.1 #first day
+
+		country_has_building_type_levels = {
+			target = bt:building_livestock_ranch
+			value >= 24
+		}
+
+		OR = {
+			goods_production_rank = {
+				target = g:meat
+				value <= 7
+			}
+		}
+	}
+
+	immediate = {
+	set_variable = {
+		name = saladeros1happened
+	}
+
+
+	}
+
+	option = {
+		name = saladeros.1.a
+		default_option = no
+		ai_chance = {
+			value = 4
+		}
+
+		add_modifier = {
+			name = saladeros
+			days = long_modifier_time
+		}
+
+	}
+	}
+
+saladeros.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = saladeros.2.t
+	desc = saladeros.2.d
+	flavor = saladeros.2.f
+
+	cooldown = { years = 999 }
+	duration = 1
+
+	event_image = {
+		video = "southamerica_saladeros"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	trigger = {
+		c:ARG ?= this # important because c:ARG can not exist
+		game_date >= 1845.2.1 #first day
+		has_variable = saladeros1happened
+		country_has_building_type_levels = {
+			target = bt:building_livestock_ranch
+			value >= 30
+		}
+
+		OR = {
+			goods_production_rank = {
+				target = g:meat
+				value <= 6
+			}
+		}
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = saladeros.2.b
+		default_option = yes
+		ai_chance = {
+			value = 4
+		}
+
+		add_modifier = {
+			name = saladeros2
+			days = normal_modifier_time
+		}
+
+	}
+
+	option = {
+		name = saladeros.2.a
+		trigger = {
+
+			OR = {
+				institution_investment_level = {
+					institution = institution_health_system
+					value = 2
+				}
+
+				has_technology_researched = modern_sewerage
+			}
+
+
+		}
+
+		ai_chance = {
+			value = 6
+		}
+
+		add_modifier = {
+			name = saladeros3
+			days = normal_modifier_time
+		}
+
+	}
+}
+
+
+
+
+
+

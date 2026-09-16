@@ -1,0 +1,82 @@
+﻿# A media alias is a way to refer to a media asset along with a fallback,
+# so that if the original asset is unavailable, the game uses the fallback asset.
+#
+# key = {
+#	texture = "texture path"
+#	video = "video path"
+#	audio = "audio event"
+#
+#	fallback = another_media_alias_key
+#}
+
+southamerica_city_center = {
+	video = "gfx/media_aliases/southamerica_city_center.bk2"
+	audio = "event:/SFX/Events/europenorthamerica/london_center"
+}
+
+southamerica_estanciero = {
+	video = "gfx/media_aliases/southamerica_estanciero.bk2"
+	audio = "event:/SFX/Events/asia/farmers_market"
+}
+
+southamerica_saladeros = {
+	video = "gfx/media_aliases/southamerica_saladeros.bk2"
+	audio = "event:/SFX/Events/asia/farmers_market"
+}
+
+southamerica_caudillo = {
+	video = "gfx/media_aliases/southamerica_caudillo.bk2"
+	audio = "event:/SFX/Events/unspecific/military_parade"
+}
+
+southamerica_aristocrats2 = {
+	video = "gfx/media_aliases/southamerica_aristocrats2.bk2"
+	audio = "event:/SFX/Events/southamerica/aristocrats"
+}
+
+southamerica_church_autocracy = {
+	video = "gfx/media_aliases/southamerica_autocracy_church.bk2"
+	audio = "event:/SFX/Events/southamerica/christianity"
+}
+
+southamerica_violent_police = {
+	video = "gfx/media_aliases/southamerica_violent_police.bk2"
+	audio = "event:/SFX/Events/southamerica/war_civilians"
+}
+
+unspecific_naval_blockade = {
+	video = "gfx/media_aliases/unspecific_naval_blockade.bk2"
+	audio = "event:/SFX/Events/unspecific/naval_battle"
+}
+
+southamerica_violent_police2 = {
+	video = "gfx/media_aliases/southamerica_violent_police2.bk2"
+	audio = "event:/SFX/Events/southamerica/war_civilians"
+}
+
+southamerica_violent_police3 = {
+	video = "gfx/media_aliases/southamerica_violent_police3.bk2"
+	audio = "event:/SFX/Events/southamerica/war_civilians"
+}
+
+southamerica_port = {
+	video = "gfx/media_aliases/southamerica_port.bk2"
+	audio = "event:/SFX/Events/unspecific/whaling"
+}
+
+southamerica_salon = {
+	video = "gfx/media_aliases/southamerica_salon.bk2"
+	audio = "event:/SFX/Events/asia/intellectual_writer"
+}
+
+southamerica_writer = {
+	video = "gfx/media_aliases/southamerica_writer.bk2"
+	audio = "event:/SFX/Events/asia/intellectual_writer"
+}
+
+southamerica_patagonia = {
+	video = "gfx/media_aliases/southamerica_patagonia.bk2"
+	audio = "event:/SFX/Events/unspecific/whaling"
+}
+
+

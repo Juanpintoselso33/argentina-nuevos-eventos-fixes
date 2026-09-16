@@ -1,0 +1,27 @@
+﻿# Fired off on_monthly_pulse_country
+on_monthly_pulse_country = {
+    on_actions = {
+        my_events_action
+    }
+}
+
+my_events_action = {
+    events = {
+        blockade.1
+        blockade.2
+        piratini.1
+        piratini.2
+        piratini.3
+        customs_laws.1
+        customs_laws.2
+        supreme_power.1
+        salons.1
+        salons.2
+        saladeros.1
+        saladeros.2
+
+    }
+}
+
+
+
