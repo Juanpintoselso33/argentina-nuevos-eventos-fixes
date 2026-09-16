@@ -53,6 +53,13 @@ En `bpm-compatch/`. Amplía las nueve condiciones de `law_autocracy` a `law_auto
 `events/mazorca.txt`, `events/salons.txt`, `common/journal_entries/rosas.txt`,
 `common/decisions/new_laws.txt` y `common/scripted_buttons/mazorca.txt`.
 
+**Dos:** destraba la **Era de los Caudillos** (`events/brazil/caudillo.txt`). El evento del juego
+que abre esa journal entry exige que las Fuerzas Armadas tengan `ideology_caudillismo`, pero con
+BPM nunca la reciben: su efecto `bpm_ig_make_caudillismo` la traduce a `ideology_dop_oligarch` y
+`ideology_gov_liberal_republican`. Con BPM, entonces, la Era de los Caudillos **no arranca nunca**,
+y eso además deja inalcanzable el contenido que el propio BPM escribió para los caudillos, porque
+se dispara desde esa misma journal entry. El compatch acepta las dos combinaciones.
+
 Va cargado después del mod.
 
 ### Orden de carga con BPM

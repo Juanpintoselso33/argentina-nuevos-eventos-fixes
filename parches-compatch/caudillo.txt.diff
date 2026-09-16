@@ -1,0 +1,22 @@
+--- juego/events/brazil/caudillo.txt
++++ compatch/events/brazil/caudillo.txt
+@@ -21,8 +21,17 @@
+ 
+ 	trigger = {
+ 		# triggered by generic monthly pulse
+-		ig:ig_armed_forces ?= {
+-			has_ideology = ideology:ideology_caudillismo
++		# COMPATCH: con BPM las Fuerzas Armadas nunca reciben ideology_caudillismo,
++		# porque su efecto bpm_ig_make_caudillismo la traduce a ideologías propias.
++		# Aceptamos también esas, para que la Era de los Caudillos pueda arrancar.
++		ig:ig_armed_forces ?= {
++			OR = {
++				has_ideology = ideology:ideology_caudillismo
++				AND = {
++					has_ideology = ideology:ideology_dop_oligarch
++					has_ideology = ideology:ideology_gov_liberal_republican
++				}
++			}
+ 		}
+ 		is_in_geographic_region = geographic_region_latin_america
+ 		any_scope_character = {
